@@ -7,7 +7,7 @@ console.log('Loaded map.js')
 mapboxgl.accessToken = 'pk.eyJ1IjoiYWVzdGVmYW0iLCJhIjoiY2pza2dzeTF4MTYzOTQ5bnpyZm96djd3dSJ9.fwglwbY2j0zooLW4jR0zlw'
 let map = new mapboxgl.Map({
     container: 'map',
-    style:'mapbox://styles/mapbox/outdoors-v10' ,
+    style:'mapbox://styles/mapbox/light-v9',
     center: [-73.96024, 40.80877],
     zoom: 1
 })
