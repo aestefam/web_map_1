@@ -8,7 +8,7 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiYWVzdGVmYW0iLCJhIjoiY2pza2dzeTF4MTYzOTQ5bnpyZ
 let map = new mapboxgl.Map({
     container: 'map',
     style:'mapbox://styles/brianhouse/cjn0u552b52kr2spdz6yhpqj4',
-    center: [-73.96216,40.80779],
+    center: [-22.923103, -43.252815],
     zoom: 16,
     pitch: 45
 })
